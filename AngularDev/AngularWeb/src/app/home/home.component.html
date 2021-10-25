@@ -1,0 +1,18 @@
+<p>Welcome {{displayname}} </p>
+<div>
+    View List of User(s) : 
+</div>
+<div>    
+    <input type="button" value="View" (click)="loadData()"/>
+    <!-- <ul>
+        <li *ngFor="let item of layerdata">
+            {{item.UserId}} 
+        </li>
+    </ul>  -->
+    <table  style="border: 1">
+    <tr *ngFor="let item of layerdata">
+       <!-- <td>{{item.UserId}} </td> <td>{{item.AccountName}} </td><td>{{item.UserName}} </td> -->
+       <td>{{item.id}} </td> <td>{{item.userid}} </td><td>{{item.name}} </td>
+    </tr>
+    </table>
+</div>

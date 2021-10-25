@@ -1,0 +1,7 @@
+<p>{{title}}</p>
+<div>
+<input type="text"  [(ngModel)]="login.UserName" >
+<input type="password" [(ngModel)]="login.Password">
+<input type="button" value="Submit" (click)="submit()"/>
+<label>{{status}}</label>
+</div>

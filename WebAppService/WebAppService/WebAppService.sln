@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "WebAppServiceCloud", "..\WebAppServiceCloud\WebAppServiceCloud.ccproj", "{846198AC-B1AF-45C9-ACCD-311335B30B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBAccess", "DBAccess\DBAccess.csproj", "{C32F2395-6635-4443-87CA-554B59484D0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppService", "WebAppService.csproj", "{2DF73A8B-82CD-4D10-9FFF-5EF0A855A3CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{846198AC-B1AF-45C9-ACCD-311335B30B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846198AC-B1AF-45C9-ACCD-311335B30B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846198AC-B1AF-45C9-ACCD-311335B30B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846198AC-B1AF-45C9-ACCD-311335B30B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32F2395-6635-4443-87CA-554B59484D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32F2395-6635-4443-87CA-554B59484D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32F2395-6635-4443-87CA-554B59484D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32F2395-6635-4443-87CA-554B59484D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF73A8B-82CD-4D10-9FFF-5EF0A855A3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF73A8B-82CD-4D10-9FFF-5EF0A855A3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF73A8B-82CD-4D10-9FFF-5EF0A855A3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF73A8B-82CD-4D10-9FFF-5EF0A855A3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://prakhour.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DBAccess\\DBAccess.csproj
+		SccProjectName1 = DBAccess
+		SccLocalPath1 = DBAccess
+		SccProjectUniqueName2 = ..\\WebAppServiceCloud\\WebAppServiceCloud.ccproj
+		SccProjectName2 = ../WebAppServiceCloud
+		SccLocalPath2 = ..\\WebAppServiceCloud
+		SccProjectUniqueName3 = WebAppService.csproj
+		SccLocalPath3 = .
+	EndGlobalSection
+EndGlobal
